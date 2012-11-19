@@ -1,0 +1,14 @@
+Um novo pedido foi feito dentro do site da Qualibom
+
+---=== Pessoa ===---
+
+Nome: <%= @pessoa.nome %>
+Email: <%= @pessoa.email %>
+Telefone: <%= @pessoa.telefone %>
+
+---=== Itens cotados ===---
+
+<% @produtos.each do |produto| %>
+  <%= "Cesta: " + produto.nome %>
+  <%= "Quantidade: " + produto.quantidade.to_s + "\n" %>
+<% end %>

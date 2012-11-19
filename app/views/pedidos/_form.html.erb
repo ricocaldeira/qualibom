@@ -1,0 +1,33 @@
+<%= form_for(@pedido, :html => { :class => "form-contato"}) do |f| %>
+  <% if @pedido.errors.any? %>
+    <div id="error_explanation">
+      <h2>Ocorreram <%= pluralize(@pedido.errors.count, "erro") %></h2>
+
+      <ul>
+      <% @pedido.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="row">
+    <div class="span4">
+      <h1>Dados pessoais</h1>
+      <%= f.fields_for :pessoa do |builder| %>
+        <%= render 'pessoa_fields', f: builder %>
+      <% end %>
+    </div>
+      
+    <div class="span8">
+      <h1>Ítens</h1>
+      <div class="span8">
+        <%= link_to_add_fields "Adicionar mais produtos", f, :produtos %>
+      </div>
+      <%= f.fields_for :produtos do |builder| %>
+        <%= render 'produto_fields', f: builder %>
+      <% end %>
+    </div>
+      <%= button_tag "Enviar", class: "btn btn-red span10", name: "commit" %>
+  </div>
+<% end %>
