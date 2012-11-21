@@ -1,2 +1,10 @@
-<%= @pessoa.email %>
-Seu pedido foi registrado com sucesso
+Olá <%= @pessoa.nome %>
+
+Seu pedido de cotação de cestas foi registrado, segue abaixo um resumo dos itens:
+
+<% @produtos.each do |produto| %>
+    <%= "Cesta: " + produto.nome %>
+    <%= "Quantidade: " + produto.quantidade.to_s + "\n" %>
+<% end %>
+
+Se preferir pode nos contactar pelo email: sac@qualibom.com.br ou por telefone: (62) 3089 - 6200

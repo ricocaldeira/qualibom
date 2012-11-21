@@ -28,10 +28,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pedidos_mailer.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="pedidos_mailer.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/mailers/pedidos_mailer.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="266" selection-end="266" vertical-scroll-proportion="0.26122448">
+            <state line="14" column="81" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="email_para_cotar_produtos.text.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pedidos_mailer/email_para_cotar_produtos.text.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="12" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.04">
+            <state line="12" column="9" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.68">
               <folding />
             </state>
           </provider>
@@ -67,16 +67,43 @@
       <file leaf-file-name="registro_do_pedido.text.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pedidos_mailer/registro_do_pedido.text.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="-0.0">
+            <state line="2" column="80" selection-start="105" selection-end="105" vertical-scroll-proportion="-1.28">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="setup_mail.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
+            <state line="949" column="17" selection-start="16813" selection-end="16813" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_form.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pedidos/_form.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="10" selection-start="838" selection-end="838" vertical-scroll-proportion="0.7591398">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_produto_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/pedidos/_produto_fields.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="39" selection-start="151" selection-end="151" vertical-scroll-proportion="-0.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pedidos.js.coffee" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pedidos.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="66" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,11 +120,15 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/config/initializers/setup_mail.rb" />
-        <option value="$PROJECT_DIR$/app/views/pedidos_mailer/registro_do_pedido.text.erb" />
-        <option value="$PROJECT_DIR$/app/views/pedidos_mailer/email_para_cotar_produtos.text.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/controllers/pedidos_controller.rb" />
         <option value="$PROJECT_DIR$/app/mailers/pedidos_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/views/pedidos_mailer/email_para_cotar_produtos.text.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
+        <option value="$PROJECT_DIR$/app/views/pedidos_mailer/registro_do_pedido.text.erb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/pedidos.js.coffee" />
+        <option value="$PROJECT_DIR$/app/views/pedidos/_produto_fields.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/pedidos/_form.html.erb" />
       </list>
     </option>
   </component>
@@ -253,6 +284,28 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pedidos" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualibom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualibom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -322,6 +375,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualibom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualibom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualibom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="qualibom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
@@ -331,6 +424,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: qualibom">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -635,30 +729,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/pedidos_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="83" column="55" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pedidos_mailer/registro_do_pedido.text.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="20" selection-start="20" selection-end="20" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -670,14 +743,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pedidos_mailer/email_para_cotar_produtos.text.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/produto.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="12" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.04">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/produto.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/setup_mail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.26122448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pessoa.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -686,7 +766,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/mailers/pedidos_mailer.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="266" selection-end="266" vertical-scroll-proportion="0.26122448">
+        <state line="14" column="81" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pedidos_mailer/email_para_cotar_produtos.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="9" selection-start="270" selection-end="270" vertical-scroll-proportion="-7.68">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pedidos_mailer/registro_do_pedido.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="80" selection-start="105" selection-end="105" vertical-scroll-proportion="-1.28">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pedidos/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="949" column="17" selection-start="16813" selection-end="16813" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pedidos.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="66" selection-start="456" selection-end="456" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pedidos/_produto_fields.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="39" selection-start="151" selection-end="151" vertical-scroll-proportion="-0.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pedidos/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="10" selection-start="838" selection-end="838" vertical-scroll-proportion="0.7591398">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,28 @@
+pt-BR:
+  activerecord:
+    models:
+      pessoa: "Pessoa"
+    attributes:
+      pessoa:
+        email: "Endereço de email"
+        nome: "Nome"
+        telefone: "Telefone"
+      produtos:
+        nome: "Nome do produto"
+        quantidade: "Quantidade"
+    errors:
+      models:
+        pessoa:
+          attributes:
+            email:
+              blank: "é obrigatório"
+            nome:
+              blank: "é obrigatório"
+            telefone:
+              blank: "é obrigatório"
+        produto:
+          attributes:
+            nome:
+              blank: "é obrigatório"
+            quantidade:
+              blank: "é obrigatório"

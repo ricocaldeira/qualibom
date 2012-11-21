@@ -1,5 +1,5 @@
 <% @lista_de_produtos = ["Qualibom standard", "Qualibom premium", "Bomdemais standard", "Bomdemais premium"] %>
-<fieldset class="campos-produtos">
+<fieldset class="campos-produtos span10">
 	<div class="span3">
 		<%= f.select :nome, options_for_select(@lista_de_produtos, :selected => f.object.nome), :prompt => 'Selecione um produto' %>
 	</div>

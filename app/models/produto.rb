@@ -3,7 +3,6 @@ class Produto < ActiveRecord::Base
 
   PRODUTOS = ["Qualibom standard", "Qualibom premium", "Bomdemais standard", "Bomdemais premium"]
 
-  validates :nome      , presence: true
   validates :nome      , inclusion: { in: PRODUTOS, message: "deve estar incluso na lista" }
   validates :quantidade, presence: true
 
