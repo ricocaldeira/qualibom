@@ -18,8 +18,8 @@ class PedidosController < ApplicationController
     @pedido = Pedido.new(params[:pedido])
     respond_to do |format|
       if @pedido.save
-        PedidosMailer.delay.registro_do_pedido(@pedido)
-        PedidosMailer.delay.email_para_cotar_produtos(@pedido)
+        PedidosMailer.registro_do_pedido(@pedido).deliver
+        PedidosMailer.email_para_cotar_produtos(@pedido).deliver
         flash[:notice] = "Pedido enviado com sucesso!"
         format.html { redirect_to action: "new" }
         format.json { render json: @pedido, status: :created, location: @pedido }
