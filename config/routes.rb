@@ -1,7 +1,7 @@
 Qualibom::Application.routes.draw do
   resources :pedidos
 
-  root to: "pedidos#new"
+  root :to => "pedidos#new"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
