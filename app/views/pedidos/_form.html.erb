@@ -24,14 +24,14 @@
     </div>
       
     <div class="span8">
-      <h1>Ítens</h1>
+      <h1>Cestas</h1>
 
       <%= f.fields_for :produtos do |builder| %>
         <%= render 'produto_fields', f: builder %>
       <% end %>
     </div>
     <div class="span10">
-      <%= link_to_add_fields "Adicionar mais produtos", f, :produtos %>
+      <%= link_to_add_fields "Adicionar mais cestas", f, :produtos %>
     </div>
       <%= button_tag "Enviar", class: "btn btn-red span10", name: "commit" %>
   </div>
